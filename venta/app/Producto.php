@@ -9,7 +9,7 @@ class Producto extends Model
     //1 declarar a que tabla se hará referencia
     protected $table = 'Producto';
     //2 indicar el atributo primary key del modelo
-    protected $primaryKey = 'idProducto';
+    protected $primaryKey = ['idProducto', 'iddos'];
 
     //para especificar cuando se creó y actualizó el registro
     //se pueden agregar dos columnas automaticamente cambiando a true
